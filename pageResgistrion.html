@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FOR HIM STORES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 class="header">For Him </h1>
+
+<div>
+    <div class="form-container">
+        <h1>Registration page</h1>
+            <input type="text" v-model="form.fName" required placeholder="Frist name">
+            <input type="text" v-model="form.lName" required placeholder="Last name">
+            <input type="text" v-model="form.email" required placeholder="email">
+            <input type="text" v-model="form.address" required placeholder="Address">
+            <input type="text" v-model="form.phone" required placeholder="Phone">
+            <input type="text" v-model="form.notes" required placeholder="Your notes">
+        <button type="submit" class="btn" @click="regsister" >Submit</button>
+    </div>
+</div>
+
+<div class="home-btn"><a href="index.html">Home</a>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

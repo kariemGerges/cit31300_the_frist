@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FOR HIM STORES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 class="header">For Him </h1>
+<h2 class="header2">You can have anything you want in life if you dress for it. —Edith Head</h2>
+<div id="Product-Store" class="row">
+    <div v-for="(prdct, i) in products">
+        <div  v-bind:id="'card'+i">
+            <div class="card column">
+                    <div>
+                        <img v-if="prdct.img" v-bind:src="prdct.img">
+                    <button class="button2">
+                        <a href="pageDetails.html">Cick here for more details</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+body {
+    background-color:#c5d5cb;
+
+}
+
+.header{
+    color: black;
+    font-family: fantasy;
+    text-align: center;
+}
+.header2{
+    color: black;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+}
+
+.card{
+    height:300px;
+    width:300px;
+    position:relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    border-radius:8px;
+    box-shadow:rgba(0,0,0,0.5) 4px 4px 16px;
+    overflow:hidden;
+    margin-left:30px;
+    cursor:pointer;
+    background-color: #9fa8a3;
+    border: darkkhaki;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 20px;
+}
+
+.row {
+    margin: 0 -05px;
+}
+
+.reg-btn {
+    background-color: white;
+    color: black;
+    padding: 16px 20px;
+    border: 2px solid darkkhaki;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: auto;
+    right: 28px;
+    width: 250px;
+}
+.reg-btn:hover {
+    background-color: #e3e0cf;
+    color: white;
+}
+
+.home-btn {
+    background-color: white;
+    color: black;
+    padding: 16px 20px;
+    border: 2px solid darkkhaki;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom:90%;
+    right: 28px;
+    width: 250px;
+}
+.home-btn:hover {
+    background-color: #e3e0cf;
+    color: white;
+}
+
+.button2 {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    padding: 16px 20px;
+    border: 2px solid darkkhaki;
+    cursor: pointer;
+    opacity: 0.8;
+    bottom: 23px;
+    right: 28px;
+    width: 250px;
+}
+
+.button2:hover {
+    background-color: #e3e0cf;
+    color: white;
+}
+
+.button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid darkkhaki;
+    top:15%;
+    left:91%;
+    width:100px;
+    height:40px;
+    position: absolute;
+    z-index: 2;
+    transition-duration: 0.5s;
+}
+.button3:hover {
+    background-color: brown;
+    color: white;
+}
+
+
+img{
+    float: left;
+    width:  248px;
+    height: 150px;
+    object-fit: scale-down;
+}
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+
+.form-container {
+    max-width: max-content;
+    padding: 15px;
+    border-color: black;
+    background-color: beige;
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container .btn {
+    background-color: rgb(15, 11, 11);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+
+
+.form-container .btn:hover, .openMenuButton:hover {
+    opacity: 1;
+    background-color: #749d73;
+    color: white;
+}
